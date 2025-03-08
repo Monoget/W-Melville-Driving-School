@@ -20,11 +20,11 @@ RewriteRule ^rush-road-test rush-road-test.php [NC,L]
 
 RewriteRule ^dmv-vision-test dmv-vision-test.php [NC,L]
 
-RewriteRule ^gallery photo-gallery.php [NC,L]
+RewriteRule ^gallery gallery.php [NC,L]
 
 RewriteRule ^faq faq.php [NC,L]
 
-RewriteRule ^about about.php [NC,L]
+RewriteRule ^about about-us.php [NC,L]
 
 RewriteRule ^contact-us contact-us.php [NC,L]
 

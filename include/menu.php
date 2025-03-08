@@ -1,306 +1,140 @@
-<?php
-$db_handle = new DBController();
-if (!empty($_GET["action"])) {
-    switch ($_GET["action"]) {
-        case "add":
-            if (!empty($_POST["quantity"])) {
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-                $productByCode = $db_handle->runQuery("SELECT * FROM tblproduct WHERE code='" . $_GET["code"] . "'");
-                $itemArray = array($productByCode[0]["code"] => array('name' => $productByCode[0]["name"],'place' => $_GET["place"], 'code' => $productByCode[0]["code"], 'quantity' => $_POST["quantity"], 'price' => $productByCode[0]["price"]));
+<!-- Add your site or application content here -->
 
-                if (!empty($_SESSION["cart_item"])) {
-                    if (in_array($productByCode[0]["code"], array_keys($_SESSION["cart_item"]))) {
-                        foreach ($_SESSION["cart_item"] as $k => $v) {
-                            if ($productByCode[0]["code"] == $k) {
-                                if (empty($_SESSION["cart_item"][$k]["quantity"])) {
-                                    $_SESSION["cart_item"][$k]["quantity"] = 0;
-                                }
-                                $_SESSION["cart_item"][$k]["quantity"] += $_POST["quantity"];
-                            }
-                        }
-                    } else {
-                        $_SESSION["cart_item"] = array_merge($_SESSION["cart_item"], $itemArray);
-                    }
-                } else {
-                    $_SESSION["cart_item"] = $itemArray;
-                }
-
-                if(isset($_GET['rush_code'])){
-                    $productByCode = $db_handle->runQuery("SELECT * FROM tblproduct WHERE code='" . $_GET["rush_code"] . "'");
-                    $itemArray = array($productByCode[0]["code"] => array('name' => $productByCode[0]["name"],'place' => $_GET["place"], 'code' => $productByCode[0]["code"], 'quantity' => $_POST["quantity"], 'price' => $productByCode[0]["price"]));
-
-                    if (!empty($_SESSION["cart_item"])) {
-                        if (in_array($productByCode[0]["code"], array_keys($_SESSION["cart_item"]))) {
-                            foreach ($_SESSION["cart_item"] as $k => $v) {
-                                if ($productByCode[0]["code"] == $k) {
-                                    if (empty($_SESSION["cart_item"][$k]["quantity"])) {
-                                        $_SESSION["cart_item"][$k]["quantity"] = 0;
-                                    }
-                                    $_SESSION["cart_item"][$k]["quantity"] += $_POST["quantity"];
-                                }
-                            }
-                        } else {
-                            $_SESSION["cart_item"] = array_merge($_SESSION["cart_item"], $itemArray);
-                        }
-                    } else {
-                        $_SESSION["cart_item"] = $itemArray;
-                    }
-                }
-                echo "<script>
-                document.cookie = 'alert = 10;';
-                </script>";
-
-            }
-            break;
-        case "remove":
-            if (!empty($_SESSION["cart_item"])) {
-                foreach ($_SESSION["cart_item"] as $k => $v) {
-                    if ($_GET["code"] == $k)
-                        unset($_SESSION["cart_item"][$k]);
-                    if (empty($_SESSION["cart_item"]))
-                        unset($_SESSION["cart_item"]);
-                }
-            }
-            break;
-        case "empty":
-            unset($_SESSION["cart_item"]);
-            break;
-    }
-}
-
-$total_quantity = 0;
-$total_price = 0;
-if (isset($_SESSION["cart_item"])) {
-    foreach ($_SESSION["cart_item"] as $item) {
-        $item_price = $item["quantity"] * $item["price"];
-        $total_quantity += $item["quantity"];
-        $total_price += ($item["price"] * $item["quantity"]);
-    }
-}
-
-
-if (isset($_GET["code"])) {
-    $product = $db_handle->runQuery("SELECT * FROM tblproduct WHERE code='" . $_GET["code"] . "'");
-
-    $product_name=$product[0]["name"];
-    $product_price=$product[0]["price"];
-    $product_label_1=$product[0]["label_1"];
-    $product_label_2=$product[0]["label_2"];
-    $product_label_3=$product[0]["label_3"];
-    $product_label_4=$product[0]["label_4"];
-}
-?>
-<header>
-
-    <div class="container-menu-desktop">
-        <div class="top-bar bg-main">
-            <div class="container">
-                <div class="content-topbar">
-                    <div class="left-top-bar">
-                        <a href="https://www.facebook.com/skdrivingschoolny" target="_blank"><i class="fa fa-facebook m-l-13" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/sk_driving_school_ny/" target="_blank"><i class="fa fa-instagram m-l-13" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/SkDrivingSchoo2"><i class="fa fa-twitter m-l-13" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/company/sk-driving-school-inc/"><i class="fa fa-linkedin m-l-13" aria-hidden="true"></i></a>
-                        <a href="https://www.youtube.com/@skdrivingschool4978"><i class="fa fa-youtube m-l-13" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="right-top-bar">
-                        <span>
-                        <i class="icon_phone" aria-hidden="true"></i>
-                        <span>(646)-400-0666</span>
-                        </span>
-                        <span>
-                        <i class="icon_pin" aria-hidden="true"></i>
-                        <span>69-07 Roosevelt Ave 2nd floor, Woodside, New York 11377</span>
-                        </span>
-                        <span>
-                        <i class="icon_clock" aria-hidden="true"></i>
-                        <span>Mon - Fri : 7am to 8pm & Sat - Sun: 9am to 6pm</span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="wrap-menu-desktop">
-            <div class="limiter-menu-desktop">
-
-                <a href="Home" class="logo">
-                    <img src="images/icons/logo.png" alt="<?php $seo_page_data = $db_handle->runQuery("SELECT * FROM seo_data where pagename='home_banner_1_title'");echo $seo_page_data[0]["seo_title"]; ?>">
-                </a>
-
-                <div class="menu-desktop">
-                    <ul class="main-menu">
-                        <li>
-                            <a href="Home">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Price</a>
-                            <ul class="sub-menu">
-                                <li><a href="Glendale-Pricing">Glendale</a></li>
-                                <li><a href="Hempsted-Pricing">Hempsted</a></li>
-                                <li><a href="Hollis-Pricing">Hollis</a></li>
-                                <li><a href="Buffalo-Pricing">Buffalo</a></li>
-                                <li><a href="Laurelton-Pricing">Laurelton</a></li>
-                                <li><a href="Long-Island-Pricing">Long Island</a></li>
-                                <li><a href="Manhattan-Pricing">Manhattan</a></li>
-                                <li><a href="Middle-Village-Pricing">Middle Village</a></li>
-                                <li><a href="Queens-Village-Pricing">Queens Village</a></li>
-                                <li><a href="Rego-Park-Pricing">Rego Park</a></li>
-                                <li><a href="Ronkonkoma-Pricing">Ronkonkoma</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Our Packages</a>
-                            <ul class="sub-menu">
-                                <li><a href="Basic-Package">Basic Package</a></li>
-                                <li><a href="Standard-Package">Standard Package</a></li>
-                                <li>
-                                    <a href="#">Individual Package</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="Driving-Lesson">Driving Lessons</a></li>
-                                        <li><a href="5-Hour-Class">5 Hour Class</a></li>
-                                        <li><a href="Rush-Road-Test">Rush Road Test</a></li>
-                                        <li><a href="Car-For-Road-Test">Car For Road Test</a></li>
-                                        <li><a href="Highway-Driving-Lesson">Highway Driving
-                                                Lessons</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="Custom-Package">Custom Package</a></li>
-                                <li><a href="https://dmvexpressservice.com/">Plate Registration</a></li>
-                                <li><a href="DMV-Vision-Test">DMV Vision Test</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Gallery">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="FAQ">Faq</a>
-                        </li>
-                        <li>
-                            <a href="Career">Career</a>
-                        </li>
-                        <li class="respon-sub-menu">
-                            <a href="#">About US</a>
-                        </li>
-                        <li class="respon-sub-menu">
-                            <a href="Contact">Contact US</a>
-                        </li>
-                        <li class="respon-sub-menu">
-                            <a href="Cart"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
-                            <span style="border-radius: 50%;background: #ccc;color:#664E88;padding: 5px;margin-left: -10px;font-size: 10px;"><?php echo $total_quantity; ?></span>
-                        </li>
-                    </ul>
-                </div>
+<!-- |==========================================| -->
+<!-- |=====|| Preloader Start ||===============| -->
+<div class="preloader">
+    <div class="preloader__content">
+        <div class="preloader__wrapper">
+            <div class="preloader__spinner"></div>
+            <div class="preloader__txt">
+                <span data-text-preloader="M" class="letters-loading">M</span>
+                <span data-text-preloader="E" class="letters-loading">E</span>
+                <span data-text-preloader="L" class="letters-loading">L</span>
+                <span data-text-preloader="V" class="letters-loading">V</span>
+                <span data-text-preloader="I" class="letters-loading">I</span>
+                <span data-text-preloader="L" class="letters-loading">L</span>
+                <span data-text-preloader="L" class="letters-loading">L</span>
+                <span data-text-preloader="E" class="letters-loading">E</span>
             </div>
         </div>
     </div>
+</div>
+<!-- |=====|| Preloader End ||=================| -->
+<!-- |==========================================| -->
 
-    <div class="wrap-header-mobile">
 
-        <a href="Home" class="logo-mobile">
-            <img src="images/icons/logo.png" alt="<?php $seo_page_data = $db_handle->runQuery("SELECT * FROM seo_data where pagename='home_banner_1_title'");echo $seo_page_data[0]["seo_title"]; ?>">
-        </a>
-
-        <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-            <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-            </span>
-        </div>
-    </div>
-
-    <div class="menu-mobile">
-        <ul class="topbar-mobile">
-            <li class="bo1-b p-t-8 p-b-8">
-                <div class="left-top-bar p-l-7">
-                    <a href="https://www.facebook.com/skdrivingschoolny" target="_blank"><i class="fa fa-facebook m-l-13" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/SkDrivingSchoo2"><i class="fa fa-twitter m-l-13" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/sk_driving_school_ny/" target="_blank"><i class="fa fa-instagram m-l-13" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/company/sk-driving-school-inc/"><i class="fa fa-linkedin m-l-13" aria-hidden="true"></i></a>
-                </div>
-            </li>
-            <li class="right-top-bar bo1-b p-t-8 p-b-8">
-                <span>
-                <i class="icon_phone" aria-hidden="true"></i>
-                <span>(646)-400-0666</span>
-                </span>
-            </li>
-            <li class="right-top-bar bo1-b p-t-8 p-b-8">
-                <span>
-                <i class="icon_pin" aria-hidden="true"></i>
-                <span>69-07 Roosevelt Ave 2nd floor, Woodside, New York 11377</span>
-                </span>
-            </li>
-            <li class="right-top-bar bo1-b p-t-8 p-b-8">
-                <span>
-                <i class="icon_clock" aria-hidden="true"></i>
-                <span>Mon - Sun : 8:00am to 9:00pm</span>
-                </span>
-            </li>
-        </ul>
-        <ul class="main-menu-m bg-main">
-            <li class="bg-main">
-                <a href="Home">Home</a>
-            </li>
-            <li class="bg-main">
-                <a href="#">Price</a>
-                <ul class="sub-menu-m">
-                    <li><a href="Glendale-Pricing">Glendale</a></li>
-                    <li><a href="Hempsted-Pricing">Hempsted</a></li>
-                    <li><a href="Hollis-Pricing">Hollis</a></li>
-                    <li><a href="Buffalo-Pricing">Buffalo</a></li>
-                    <li><a href="Laurelton-Pricing">Laurelton</a></li>
-                    <li><a href="Long-Island-Pricing">Long Island</a></li>
-                    <li><a href="Manhattan-Pricing">Manhattan</a></li>
-                    <li><a href="Middle-Village-Pricing">Middle Village</a></li>
-                    <li><a href="Queens-Village-Pricing">Queens Village</a></li>
-                    <li><a href="Rego-Park-Pricing">Rego Park</a></li>
-                    <li><a href="Ronkonkoma-Pricing">Ronkonkoma</a></li>
-                </ul>
-                <span class="arrow-main-menu-m">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </span>
-            </li>
-            <li class="bg-main">
-                <a href="#">Our Packages</a>
-                <ul class="sub-menu-m">
-                    <li><a href="Basic-Package">Basic Package</a></li>
-                    <li><a href="Standard-Package">Standard Package</a></li>
-                    <li>
-                        <a href="#">Individual Package</a>
-                        <ul class="sub-menu-m">
-                            <li><a href="Driving-Lesson">Driving Lessons</a></li>
-                            <li><a href="5-Hour-Class">5 Hour Class</a></li>
-                            <li><a href="Rush-Road-Test">Rush Road Test</a></li>
-                            <li><a href="Car-For-Road-Test">Car For Road Test</a></li>
-                            <li><a href="Highway-Driving-Lesson">Highway Driving
-                                    Lessons</a></li>
+<!-- |==========================================| -->
+<!-- |=====|| Header Start ||===============| -->
+<header class="header home1">
+    <!-- Header Top Start -->
+    <div class="header__top1">
+        <div class="container_m">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="header__top1--left">
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>25 Melville Park Road, Suite #203A, Melville, NY 11747</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-open-text"></i>
+                                <span>melvilledrivingschool@gmail.com</span>
+                            </li>
                         </ul>
-                    </li>
-                    <li><a href="Custom-Package">Custom Package</a></li>
-                    <li><a href="https://dmvexpressservice.com/">Plate Registration</a></li>
-                </ul>
-                <span class="arrow-main-menu-m">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </span>
-            </li>
-            <li class="bg-main">
-                <a href="Gallery">Gallery</a>
-            </li>
-            <li class="bg-main">
-                <a href="FAQ">Faq</a>
-            </li>
-            <li class="bg-main">
-                <a href="Career">Career</a>
-            </li>
-            <li class="bg-main">
-                <a href="About">About US</a>
-            </li>
-            <li class="bg-main">
-                <a href="Contact">Contact US</a>
-            </li>
-            <li class="bg-main text-center">
-                <a href="Cart"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
-                <span style="border-radius: 50%;background: #ffffff;color:#664E88;padding: 5px;margin-left: -10px;font-size: 10px;"><?php echo $total_quantity; ?></span>
-            </li>
-        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="header__top1--right">
+                        <div class="header__top1--language float-lg-end">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/img/png-icon/icon-01.png" alt="English">
+                                        <span>English</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__top1--social float-lg-end">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Header Top End -->
+
+    <!-- Header Menu Start -->
+    <div class="header__menu">
+        <div class="header__menu-wrapper">
+            <div class="container_m">
+                <div class="header__menu-outer">
+                    <div class="row">
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <div class="header__logo">
+                                <a href="home"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="header__side-nav f_right d-none d-lg-block">
+                                <ul>
+                                    <li>
+                                        <div class="main_btn">
+                                            <a href="cart">Cart (0)</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="main-menu text-right f_right">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="home">Home</a>
+                                        </li>
+                                        <li><a href="#">Our Packages</a>
+                                            <ul class="sub_menu">
+                                                <li><a href="basic-package">Basic Package</a></li>
+                                                <li><a href="standard-package">Standard Package</a></li>
+                                                <li>
+                                                    <a href="#">Individual Package</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="#">Driving Lessons</a></li>
+                                                        <li><a href="#">5 Hour Class</a></li>
+                                                        <li><a href="#">Rush Road Test</a></li>
+                                                        <li><a href="#">Car For Road Test</a></li>
+                                                        <li><a href="#">Highway Driving Lessons</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Custom Package</a></li>
+                                                <li><a href="https://dmvexpressservice.com/">Plate Registration</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="gallery">Gallery</a></li>
+                                        <li><a href="faq">FAQ</a></li>
+                                        <li><a href="about">About</a></li>
+                                        <li><a href="contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Menu End -->
 </header>
+<!-- |=====|| Header End ||=================| -->
+<!-- |==========================================| -->
