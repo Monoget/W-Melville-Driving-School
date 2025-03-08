@@ -1,0 +1,52 @@
+ErrorDocument 404 /404.php
+
+RewriteEngine on
+
+RewriteRule ^home index.php [NC,L]
+
+RewriteRule ^basic-package basic-package.php [NC,L]
+
+RewriteRule ^standard-package standard-package.php [NC,L]
+
+RewriteRule ^5-hour-class 5-hour-class.php [NC,L]
+
+RewriteRule ^car-for-road-test car-for-road-test.php [NC,L]
+
+RewriteRule ^driving-lesson driving-lessons.php [NC,L]
+
+RewriteRule ^highway-driving-lesson highway-driving-lesson.php [NC,L]
+
+RewriteRule ^rush-road-test rush-road-test.php [NC,L]
+
+RewriteRule ^dmv-vision-test dmv-vision-test.php [NC,L]
+
+RewriteRule ^gallery photo-gallery.php [NC,L]
+
+RewriteRule ^faq faq.php [NC,L]
+
+RewriteRule ^about about.php [NC,L]
+
+RewriteRule ^contact-us contact-us.php [NC,L]
+
+RewriteRule ^contact contact.php [NC,L]
+
+RewriteRule ^cart cart.php [NC,L]
+
+RewriteRule ^checkout checkout.php [NC,L]
+
+RewriteRule ^product product.php [NC,L]
+
+RewriteRule ^payment payment.php [NC,L]
+
+RewriteRule ^newsletter newsletter.php [NC,L]
+
+RewriteRule ^server-config php-info.php [NC,L]
+
+RewriteRule ^custom-package custom-package.php [NC,L]
+
+RewriteRule ^terms-and-condition terms-and-condition.php [NC,L]
+
+RewriteRule ^rush-test-price rush_test_price.php [NC,L]
+
+RewriteRule ^voucher voucher.php [NC,L]
+

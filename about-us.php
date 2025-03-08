@@ -265,17 +265,17 @@
     <main>
         <!-- |==========================================| -->
         <!-- |=====|| Page Title Start ||===============| -->
-        <section class="pageTitleRs1 pageTitleRs1__bg4">
+        <section class="pageTitleRs1 pageTitleRs1__bg2">
             <div class="pageTitleRs1__padding">
                 <div class="container_m_30">
                     <div class="row">
                         <div class="col-lg-12 col_padding">
                             <div class="pageTitleRs1__content">
-                                <h1>Our Blog</h1>
+                                <h1>About Us</h1>
                                 <div class="pageTitleRs1__bread-crumb">
                                     <ul>
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="#">Our Blog</a></li>
+                                        <li><a href="#">About Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -289,343 +289,103 @@
 
 
         <!-- |==========================================| -->
-        <!-- |=====|| Blog Page Start ||===============| -->
-        <section class="blogPageRs1">
-            <div class="content_box_120_70">
+        <!-- |=====|| Why Choose Us Start ||===============| -->
+        <section class="whyChooseUs1 other_page">
+            <div class="content_box_120">
                 <div class="container_m_30">
                     <div class="row">
-                        <div class="col-xl-8 col_padding">
-                            <div class="blogPageRs1__wrapper">
-                                <div class="blogPageRs1__item mb-50">
-                                    <div class="blogPageRs1__dataBox">
-                                        <div class="blogPageRs1__thumb">
-                                            <img class="img_100" src="assets/img/blog/blog-page-01.jpg"
-                                                alt="Blog Image">
-                                        </div>
-                                        <div class="blogPageRs1__data">
-                                            <a href="#">18 NOV, 2021</a>
-                                        </div>
+                        <div class="col-lg-6 col_padding">
+                            <div class="headingStyle1">
+                                <h5>Why Choose Us</h5>
+                                <h2>We ensure quality services for our clients</h2>
+                            </div>
+                            <div class="whyChooseUs1__content">
+                                <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra
+                                    faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex ut,
+                                    eleifend tristique metus. Integer sit amet auctor ligula, vel dictum orci. Nam
+                                    feugiat interdum nisl.</p>
+                                <div class="whyChooseUs1__item mt-35">
+                                    <div class="whyChooseUs1__thumb">
+                                        <img src="assets/img/png-icon/icon-18.png" alt="Image">
                                     </div>
-                                    <div class="blogPageRs1__content">
-                                        <div class="blogPageRs1__content--data">
-                                            <a href="#"><i class="fas fa-user-edit"></i><span>By Admin</span></a>
-                                            <a href="#"><i class="far fa-comments"></i><span>3 Comments</span></a>
-                                        </div>
-                                        <h2><a href="blog-details-2.html">How to grow a creative digital agency?</a>
-                                        </h2>
-                                        <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut, eleifend tristique metus. Integer sit amet auctor ligula,
-                                            vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus
-                                            gravida. Vivamus lobortis vestibulum mauris a mollis.</p>
-                                        <a href="blog-details-2.html">Read more</a>
-                                    </div>
+                                    <h5>Creative Solution</h5>
+                                    <p>Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit amet auctor
+                                        ligula, vel dictum orci.</p>
                                 </div>
-                                <div class="blogPageRs1__item mb-50">
-                                    <div class="blogPageRs1__dataBox">
-                                        <div class="blogPageRs1__thumb">
-                                            <img class="img_100" src="assets/img/blog/blog-page-02.jpg"
-                                                alt="Blog Image">
-                                        </div>
-                                        <div class="blogPageRs1__data">
-                                            <a href="#">18 NOV, 2021</a>
-                                        </div>
+                                <div class="whyChooseUs1__item mt-30 mb-60">
+                                    <div class="whyChooseUs1__thumb bg1">
+                                        <img src="assets/img/png-icon/icon-19.png" alt="Image">
                                     </div>
-                                    <div class="blogPageRs1__content">
-                                        <div class="blogPageRs1__content--data">
-                                            <a href="#"><i class="fas fa-user-edit"></i><span>By Admin</span></a>
-                                            <a href="#"><i class="far fa-comments"></i><span>3 Comments</span></a>
-                                        </div>
-                                        <h2><a href="blog-details-2.html">How to grow a creative digital agency?</a>
-                                        </h2>
-                                        <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut, eleifend tristique metus. Integer sit amet auctor ligula,
-                                            vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus
-                                            gravida. Vivamus lobortis vestibulum mauris a mollis.</p>
-                                        <a href="blog-details-2.html">Read more</a>
-                                    </div>
+                                    <h5>Satisfied Service</h5>
+                                    <p>Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit amet auctor
+                                        ligula, vel dictum orci.</p>
                                 </div>
-                                <div class="blogPageRs1__item mb-50">
-                                    <div class="blogPageRs1__dataBox">
-                                        <div class="blogPageRs1__thumb">
-                                            <img class="img_100" src="assets/img/blog/blog-page-03.jpg"
-                                                alt="Blog Image">
-                                        </div>
-                                        <div class="blogPageRs1__data">
-                                            <a href="#">18 NOV, 2021</a>
-                                        </div>
-                                    </div>
-                                    <div class="blogPageRs1__content">
-                                        <div class="blogPageRs1__content--data">
-                                            <a href="#"><i class="fas fa-user-edit"></i><span>By Admin</span></a>
-                                            <a href="#"><i class="far fa-comments"></i><span>3 Comments</span></a>
-                                        </div>
-                                        <h2><a href="blog-details-2.html">How to grow a creative digital agency?</a>
-                                        </h2>
-                                        <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut, eleifend tristique metus. Integer sit amet auctor ligula,
-                                            vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus
-                                            gravida. Vivamus lobortis vestibulum mauris a mollis.</p>
-                                        <a href="blog-details-2.html">Read more</a>
-                                    </div>
-                                </div>
-                                <div class="blogPageRs1__item withOutThumb mb-50">
-                                    <div class="blogPageRs1__dataBox">
-                                        <div class="blogPageRs1__data">
-                                            <a href="#">18 NOV, 2021</a>
-                                        </div>
-                                    </div>
-                                    <div class="blogPageRs1__content">
-                                        <div class="blogPageRs1__content--data">
-                                            <a href="#"><i class="fas fa-user-edit"></i><span>By Admin</span></a>
-                                            <a href="#"><i class="far fa-comments"></i><span>3 Comments</span></a>
-                                        </div>
-                                        <h2><a href="blog-details-2.html">How to grow a creative digital agency?</a>
-                                        </h2>
-                                        <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut, eleifend tristique metus. Integer sit amet auctor ligula,
-                                            vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus
-                                            gravida. Vivamus lobortis vestibulum mauris a mollis.</p>
-                                        <a href="blog-details-2.html">Read more</a>
-                                    </div>
-                                </div>
-                                <div class="blogPageRs1__item mb-50">
-                                    <div class="blogPageRs1__dataBox">
-                                        <div class="blogPageRs1__thumb">
-                                            <img class="img_100" src="assets/img/blog/blog-page-04.jpg"
-                                                alt="Blog Image">
-                                        </div>
-                                        <div class="blogPageRs1__data">
-                                            <a href="#">18 NOV, 2021</a>
-                                        </div>
-                                        <div class="blogPageRs1__video">
-                                            <a data-fancybox="gallery_1" data-caption="Your caption will be here."
-                                                href="https://youtu.be/8rPB4A3zDnQ"> <i class="fas fa-play"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="blogPageRs1__content">
-                                        <div class="blogPageRs1__content--data">
-                                            <a href="#"><i class="fas fa-user-edit"></i><span>By Admin</span></a>
-                                            <a href="#"><i class="far fa-comments"></i><span>3 Comments</span></a>
-                                        </div>
-                                        <h2><a href="blog-details-2.html">How to grow a creative digital agency?</a>
-                                        </h2>
-                                        <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut, eleifend tristique metus. Integer sit amet auctor ligula,
-                                            vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus
-                                            gravida. Vivamus lobortis vestibulum mauris a mollis.</p>
-                                        <a href="blog-details-2.html">Read more</a>
-                                    </div>
-                                </div>
-                                <div class="paginationRs1 mb-50 d-flex justify-content-center">
-                                    <ul>
-                                        <li><a href="#"><i class="ti-angle-double-left"></i></a></li>
-                                        <li class="active"><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><a href="#">54</a></li>
-                                        <li><a href="#">55</a></li>
-                                        <li><a href="#"><i class="ti-angle-double-right"></i></a></li>
-                                    </ul>
+                                <div class="main_btn">
+                                    <a href="about-us.html">Discover More</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col_padding">
-                            <div class="sideBarRs1">
-                                <!-- Search -->
-                                <div class="sideBarRs1__widget mb-50">
-                                    <h3>Search Objects</h3>
-                                    <div class="sideBarRs1__search">
-                                        <input type="text" placeholder="Search your keyword....">
-                                        <button class="button" type="submit">
-                                            <i class="fas fa-search"></i>
-                                        </button>
-                                    </div>
+                        <div class="col-lg-6 col_padding">
+                            <div class="whyChooseUs1__imgBox3">
+                                <div class="whyChooseUs1__imgBox3--thumb1">
+                                    <img src="assets/img/about/about-09.jpg" alt="Image">
                                 </div>
-                                <!-- Admin -->
-                                <div class="sideBarRs1__widget mb-50">
-                                    <h3>About Admin</h3>
-                                    <div class="sideBarRs1__admin">
-                                        <div class="sideBarRs1__admin--thumb">
-                                            <img src="assets/img/sidebar/sideBar-01.jpg" alt="Image">
-                                        </div>
-                                        <h5><a href="#">Christina C Graham</a></h5>
-                                        <p>Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit amet
-                                            auctor ligula, vel dictum orci.</p>
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                        </ul>
-                                    </div>
+                                <div class="whyChooseUs1__imgBox3--thumb2">
+                                    <img src="assets/img/about/about-10.jpg" alt="Image">
                                 </div>
-                                <!-- Blog -->
-                                <div class="sideBarRs1__widget mb-50">
-                                    <h3>Popular Feeds</h3>
-                                    <div class="sideBarRs1__blog">
-                                        <div class="sideBarRs1__blog--item">
-                                            <div class="sideBarRs1__blog--thumb">
-                                                <img src="assets/img/sidebar/sideBar-02.jpg" alt="Image">
-                                            </div>
-                                            <div class="sideBarRs1__blog--content">
-                                                <h3><a href="blog-details-2.html">10 Tips for Making a Good Agency Even
-                                                        Better</a></h3>
-                                                <div class="sideBarRs1__blog--data">
-                                                    <a href="#"><i class="far fa-calendar-alt"></i> <span>31 May
-                                                            2022</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sideBarRs1__blog--item">
-                                            <div class="sideBarRs1__blog--thumb">
-                                                <img src="assets/img/sidebar/sideBar-03.jpg" alt="Image">
-                                            </div>
-                                            <div class="sideBarRs1__blog--content">
-                                                <h3><a href="blog-details-2.html">10 Tips for Making a Good Agency Even
-                                                        Better</a></h3>
-                                                <div class="sideBarRs1__blog--data">
-                                                    <a href="#"><i class="far fa-calendar-alt"></i> <span>31 May
-                                                            2022</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sideBarRs1__blog--item">
-                                            <div class="sideBarRs1__blog--thumb">
-                                                <img src="assets/img/sidebar/sideBar-04.jpg" alt="Image">
-                                            </div>
-                                            <div class="sideBarRs1__blog--content">
-                                                <h3><a href="blog-details-2.html">10 Tips for Making a Good Agency Even
-                                                        Better</a></h3>
-                                                <div class="sideBarRs1__blog--data">
-                                                    <a href="#"><i class="far fa-calendar-alt"></i> <span>31 May
-                                                            2022</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sideBarRs1__blog--item">
-                                            <div class="sideBarRs1__blog--thumb">
-                                                <img src="assets/img/sidebar/sideBar-05.jpg" alt="Image">
-                                            </div>
-                                            <div class="sideBarRs1__blog--content">
-                                                <h3><a href="blog-details-2.html">10 Tips for Making a Good Agency Even
-                                                        Better</a></h3>
-                                                <div class="sideBarRs1__blog--data">
-                                                    <a href="#"><i class="far fa-calendar-alt"></i> <span>31 May
-                                                            2022</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="whyChooseUs1__imgBox3--thumb3">
+                                    <img src="assets/img/png-img/png-img-41.png" alt="Image">
                                 </div>
-                                <!-- Categories -->
-                                <div class="sideBarRs1__widget mb-50">
-                                    <h3>Categories</h3>
-                                    <div class="sideBarRs1__categories">
-                                        <ul>
-                                            <li>
-                                                <a class="d-block d-flex justify-content-between" href="#">
-                                                    <span>Business</span> <span>55</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="d-block d-flex justify-content-between" href="#">
-                                                    <span>Creative</span> <span>21</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="d-block d-flex justify-content-between" href="#">
-                                                    <span>Technology</span> <span>14</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="d-block d-flex justify-content-between" href="#">
-                                                    <span>Consultant</span> <span>81</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a class="d-block d-flex justify-content-between" href="#">
-                                                    <span>Marketing</span> <span>23</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="whyChooseUs1__imgBox3--thumb4">
+                                    <span>10+ years of experience</span>
                                 </div>
-                                <!-- Instagram -->
-                                <div class="sideBarRs1__widget a_pre_fix mb-50">
-                                    <h3>Instagram Feeds</h3>
-                                    <div class="sideBarRs1__instagram">
-                                        <ul>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-06.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-07.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-08.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-09.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-10.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-11.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-12.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-13.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-14.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-15.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-16.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                            <li><a href="#"><img src="assets/img/sidebar/sideBar-17.jpg"
-                                                        alt="Side Bar"></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- |=====|| Why Choose Us End ||=================| -->
+        <!-- |==========================================| -->
+
+
+        <!-- |==========================================| -->
+        <!-- |=====|| Counter Up Start ||===============| -->
+        <section class="counter3">
+            <div class="content_box_120">
+                <div class="container_m_30">
+                    <div class="row">
+                        <div class="col-lg-6 col_padding">
+                            <div class="counter3__video">
+                                <div class="counter3__title">
+                                    <h5>Learn About Agency</h5>
+                                    <h2>A quick, secure & transparent process</h2>
                                 </div>
-                                <!-- Tag -->
-                                <div class="sideBarRs1__widget a_pre_fix mb-50">
-                                    <h3>Popular Tags</h3>
-                                    <div class="sideBarRs1__tag">
-                                        <ul>
-                                            <li><a href="#">Business</a></li>
-                                            <li><a href="#">UI/UX</a></li>
-                                            <li><a href="#">Consult</a></li>
-                                            <li><a href="#">Icons</a></li>
-                                            <li><a href="#">Tech</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Creative</a></li>
-                                            <li><a href="#">Web</a></li>
-                                            <li><a href="#">Workers</a></li>
-                                            <li><a href="#">Mordent</a></li>
-                                            <li><a href="#">Corporate</a></li>
-                                        </ul>
-                                    </div>
+                                <div class="counter3__btn">
+                                    <a data-fancybox="gallery_1" data-caption="Your caption will be here."
+                                        href="https://youtu.be/8rPB4A3zDnQ">
+                                        <i class="fas fa-play"></i>
+                                    </a>
                                 </div>
-                                <!-- Adds -->
-                                <div class="sideBarRs1__widget mb-50">
-                                    <h3>Sponsor Adds</h3>
-                                    <div class="sideBarRs1__add">
-                                        <a href="#"><img src="assets/img/sidebar/sideBar-18.jpg" alt="Side Bar"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col_padding">
+                            <div class="counter3__content">
+                                <h3>We use our expertise and knowledge to take your business further.</h3>
+                                <div class="counter3__content--wrapper d-sm-flex justify-content-sm-between">
+                                    <div class="counter3__content--item">
+                                        <h4>
+                                            <span class="counter">62</span>
+                                            <span>+</span>
+                                        </h4>
+                                        <p>Employees</p>
+                                    </div>
+                                    <div class="counter3__content--item">
+                                        <h4>
+                                            <span class="counter">792</span>
+                                            <span>+</span>
+                                        </h4>
+                                        <p>Project Done</p>
                                     </div>
                                 </div>
                             </div>
@@ -634,8 +394,266 @@
                 </div>
             </div>
         </section>
-        <!-- |=====|| Blog Page End ||=================| -->
+        <!-- |=====|| Counter Up End ||=================| -->
         <!-- |==========================================| -->
+
+
+        <!-- |==========================================| -->
+        <!-- |=====|| Working Process Start ||===============| -->
+        <section class="working_process1">
+            <div class="content_box_120_90">
+                <div class="container_m_30">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 col_padding">
+                            <div class="working_process1--item text-center mb-30">
+                                <div class="working_process1--imgbox">
+                                    <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
+                                    <img class="imgbox_thumb1" src="assets/img/png-icon/icon-07.png" alt="PNG Icon">
+                                </div>
+                                <h3><a href="service-details-2.html">Market Research</a></h3>
+                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
+                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 col_padding">
+                            <div class="working_process1--item text-center mb-30">
+                                <div class="working_process1--imgbox">
+                                    <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
+                                    <img class="imgbox_thumb1" src="assets/img/png-icon/icon-08.png" alt="PNG Icon">
+                                </div>
+                                <h3><a href="service-details-2.html">Wireframe/Sketch</a></h3>
+                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
+                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 col_padding">
+                            <div class="working_process1--item text-center mb-30">
+                                <div class="working_process1--imgbox">
+                                    <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
+                                    <img class="imgbox_thumb1" src="assets/img/png-icon/icon-09.png" alt="PNG Icon">
+                                </div>
+                                <h3><a href="service-details-2.html">Creative Design</a></h3>
+                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
+                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 col_padding">
+                            <div class="working_process1--item text-center mb-30">
+                                <div class="working_process1--imgbox">
+                                    <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
+                                    <img class="imgbox_thumb1" src="assets/img/png-icon/icon-10.png" alt="PNG Icon">
+                                </div>
+                                <h3><a href="service-details-2.html">Develop Design</a></h3>
+                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
+                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- |=====|| Working Process End ||=================| -->
+        <!-- |==========================================| -->
+
+
+        <!-- |==========================================| -->
+        <!-- |=====|| About Start ||===============| -->
+        <section class="about2">
+            <div class="content_box_120">
+                <div class="container_m_30">
+                    <div class="row">
+                        <div class="col-lg-6 col_padding order-2 order-lg-0">
+                            <div class="about2__imgBox">
+                                <div class="about2__imgBox--01">
+                                    <img src="assets/img/about/about-11.jpg" alt="About">
+                                </div>
+                                <div class="about2__imgBox--02">
+                                    <img src="assets/img/about/about-12.jpg" alt="About">
+                                </div>
+                                <div class="about2__imgBox--text">
+                                    <p class="m-0">10 Years of <br class="d-none d-md-inline-block"> experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col_padding">
+                            <div class="about2__wrapper">
+                                <div class="headingStyle1">
+                                    <h5>Company Introductions</h5>
+                                    <h2>A quick, secure & <br class="d-none d-md-inline-block"> transparent process.
+                                    </h2>
+                                </div>
+                                <div class="about2__content">
+                                    <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra
+                                        faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex
+                                        ut, eleifend tristique metus.</p>
+                                    <h6>Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim
+                                        dolor, eleifend tristique metus.</h6>
+                                    <div class="row">
+                                        <div class="col-sm-6 col_padding">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" class="about2__item">
+                                                        <i class="icofont-checked"></i>
+                                                        <span>Best consultancy in town</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="about2__item">
+                                                        <i class="icofont-checked"></i>
+                                                        <span>We can help your business</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6 col_padding">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" class="about2__item">
+                                                        <i class="icofont-checked"></i>
+                                                        <span>We offer any type of loans</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="about2__item">
+                                                        <i class="icofont-checked"></i>
+                                                        <span>Our process very quickly</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about2__bottom">
+                                    <div class="about2__bottom--btn f_left">
+                                        <div class="main_btn">
+                                            <a href="about-us.html">About Us</a>
+                                        </div>
+                                    </div>
+                                    <div class="about2__bottom--phone f_left">
+                                        <div class="about2__bottom--phone-thumb">
+                                            <img src="assets/img/png-icon/icon-20.png" alt="Icon">
+                                        </div>
+                                        <div class="about2__bottom--phone-info">
+                                            <h6>Call Anytime</h6>
+                                            <p class="m-0">88 478 365 8451</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- |=====|| About End ||=================| -->
+        <!-- |==========================================| -->
+
+
+        <!-- |==========================================| -->
+        <!-- |=====|| Testimonial Start ||===============| -->
+        <section class="testimonial2">
+            <div class="content_box_120">
+                <div class="container_m_30">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 col_padding">
+                            <div class="headingStyle2 text-center mb-85">
+                                <h5>Our Testimonial</h5>
+                                <h2>What Clients Says?</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col_padding">
+                            <div class="testimonial2__carousel owl-carousel owl-theme">
+                                <div class="testimonial2__item">
+                                    <div class="testimonial2__thumb">
+                                        <img src="assets/img/testimonial/testimonial-01.jpg" alt="Image">
+                                    </div>
+                                    <div class="testimonial2__content">
+                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
+                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
+                                            porta at ex ut."</p>
+                                        <div class="testimonial2__content--data d-flex justify-content-between">
+                                            <h6 class="m-0">Pamela Banks <span class="m-0">- Web Developer</span></h6>
+                                            <ul>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial2__item">
+                                    <div class="testimonial2__thumb">
+                                        <img src="assets/img/testimonial/testimonial-07.jpg" alt="Image">
+                                    </div>
+                                    <div class="testimonial2__content">
+                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
+                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
+                                            porta at ex ut."</p>
+                                        <div class="testimonial2__content--data d-flex justify-content-between">
+                                            <h6 class="m-0">Ryan Reyes <span class="m-0">- UI Designer</span></h6>
+                                            <ul>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial2__item">
+                                    <div class="testimonial2__thumb">
+                                        <img src="assets/img/testimonial/testimonial-05.jpg" alt="Image">
+                                    </div>
+                                    <div class="testimonial2__content">
+                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
+                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
+                                            porta at ex ut."</p>
+                                        <div class="testimonial2__content--data d-flex justify-content-between">
+                                            <h6 class="m-0">Pamela Banks <span class="m-0">- Web Developer</span></h6>
+                                            <ul>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial2__item">
+                                    <div class="testimonial2__thumb">
+                                        <img src="assets/img/testimonial/testimonial-06.jpg" alt="Image">
+                                    </div>
+                                    <div class="testimonial2__content">
+                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
+                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
+                                            porta at ex ut."</p>
+                                        <div class="testimonial2__content--data d-flex justify-content-between">
+                                            <h6 class="m-0">Ryan Reyes <span class="m-0">- UI Designer</span></h6>
+                                            <ul>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- |=====|| Testimonial End ||=================| -->
+        <!-- |==========================================| -->
+
     </main>
 
 
