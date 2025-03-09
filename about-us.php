@@ -32,7 +32,7 @@
                                 <h1>About Us</h1>
                                 <div class="pageTitleRs1__bread-crumb">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="home">Home</a></li>
                                         <li><a href="#">About Us</a></li>
                                     </ul>
                                 </div>

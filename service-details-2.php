@@ -32,7 +32,7 @@
                                 <h1>Service Details</h1>
                                 <div class="pageTitleRs1__bread-crumb">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="home">Home</a></li>
                                         <li><a href="#">Service Details</a></li>
                                     </ul>
                                 </div>

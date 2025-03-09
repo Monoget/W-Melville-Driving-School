@@ -48,7 +48,7 @@
                             <h1>Gallery</h1>
                             <div class="pageTitleRs1__bread-crumb">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="home">Home</a></li>
                                     <li><a href="#">Gallery</a></li>
                                 </ul>
                             </div>

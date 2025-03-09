@@ -32,7 +32,7 @@
                                 <h1>Contact us</h1>
                                 <div class="pageTitleRs1__bread-crumb">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="home">Home</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
                                 </div>
@@ -62,17 +62,17 @@
                                     <li>
                                         <h4>Opening hours</h4>
                                     </li>
-                                    <li><span>Daily : 9.30 AM - 5.00 PM</span></li>
-                                    <li><span>Sunday and Holidays : Closed</span></li>
+                                    <li><span>Mon - Fri : 7:00am to 8:00pm</span></li>
+                                    <li><span>Sat - Sun : 9:00am to 6:00pm</span></li>
                                 </ul>
                                 <ul>
                                     <li>
                                         <h4>Contact info</h4>
                                     </li>
-                                    <li><span>2493 Mahlon Street</span></li>
-                                    <li><span>Cedar Knolls, NJ 07927</span></li>
-                                    <li><span>ThomasCJarrell@rhyta.com</span></li>
-                                    <li><span>732-965-4052</span></li>
+                                    <li><span>25 Melville Park Road, Suite #203A</span></li>
+                                    <li><span>Melville, NY 11747 </span></li>
+                                    <li><span>melvilledrivingschool@gmail.com</span></li>
+                                    <li><span>(646) 841-9365</span></li>
                                 </ul>
                                 <ul class="other_page">
                                     <li>
@@ -87,14 +87,14 @@
                         </div>
                         <div class="col-xl-8 col-lg-7 col_padding">
                             <div class="contact1__map">
-                                <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra
-                                    faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex ut.
+                                <p>
+                                    We are always ready to assist you with any inquiries or requests. Please find our contact details below:
                                 </p>
                                 <!-- Google Map -->
                                 <div class="mapouter">
                                     <div class="gmap_canvas">
                                         <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1622079249574!5m2!1sen!2sbd"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.3287033974843!2d-73.42004352355877!3d40.776787233646225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e82bcb571269cd%3A0xbed0667923aba4f0!2s25%20Melville%20Park%20Rd%2C%20Melville%2C%20NY%2011747%2C%20USA!5e0!3m2!1sen!2sbd!4v1741549867549!5m2!1sen!2sbd"
                                             loading="lazy">
                                         </iframe>
                                     </div>

@@ -12,19 +12,23 @@
                             <li>
                                 <p class="m-0">
                                     <i class="fas fa-map-marked-alt"></i>
-                                    <span>4566 Boone Street, New York</span>
+                                    <span>25 Melville Park Road, Suite #203A, Melville,
+                                        </span>
+                                    <span>
+                                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NY 11747
+                                        </span>
                                 </p>
                             </li>
                             <li>
                                 <p class="m-0">
                                     <i class="fas fa-phone-alt"></i>
-                                    <span>908-814-0807, +609-468-7665</span>
+                                    <span>(646) 841-9365</span>
                                 </p>
                             </li>
                             <li>
                                 <p class="m-0">
                                     <i class="fas fa-envelope-open-text"></i>
-                                    <span>oilytheme@gmail.com</span>
+                                    <span>melvilledrivingschool@gmail.com</span>
                                 </p>
                             </li>
                         </ul>
@@ -41,39 +45,27 @@
                         <h3>Useful Links</h3>
                         <ul>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="about" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
                                     <span class="d-inline-block">About Us</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="basic-package" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
                                     <span class="d-inline-block">Our Services</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
-                                    <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">About Company</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="home" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
                                     <span class="d-inline-block">Testimonial</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="home" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
                                     <span class="d-inline-block">Our Blog</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-inline-block">
-                                    <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Contact</span>
                                 </a>
                             </li>
                         </ul>
@@ -81,42 +73,30 @@
                 </div>
                 <div class="col-md-6 col-lg-3 col_padding">
                     <div class="footer1__service footer1__widget">
-                        <h3>Services</h3>
+                        <h3>Our Packages</h3>
                         <ul>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="basic-package" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">SEO Optimization</span>
+                                    <span class="d-inline-block">Basic Package</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="standard-package" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Business Consulting</span>
+                                    <span class="d-inline-block">Standard Package</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="individual-package" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Marketing Analysis</span>
+                                    <span class="d-inline-block">Individual Package</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="5-hour-class" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Business Growth</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-inline-block">
-                                    <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Fields The Policy</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-inline-block">
-                                    <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">IT Consultancy</span>
+                                    <span class="d-inline-block">5 Hour Class</span>
                                 </a>
                             </li>
                         </ul>
@@ -127,25 +107,13 @@
                         <h3>Support</h3>
                         <ul>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="contact" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Help Center</span>
+                                    <span class="d-inline-block">Contact</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
-                                    <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Contact Us</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-inline-block">
-                                    <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Live Chat</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="terms-and-condition" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
                                     <span class="d-inline-block">Our Terms</span>
                                 </a>
@@ -157,9 +125,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="d-inline-block">
+                                <a href="faq" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
-                                    <span class="d-inline-block">Hot Line</span>
+                                    <span class="d-inline-block">FAQ</span>
                                 </a>
                             </li>
                         </ul>
@@ -173,8 +141,7 @@
             <div class="row">
                 <div class="col-lg-12 col_padding">
                     <div class="footer1__copyRight--text">
-                        <p class="m-0">Copyright @ 2025. All Rights Reserved By Melville Driving School | Design and Develop by <a
-                                    href="https://monoget.com.bd">Monoget Saha</a>.</p>
+                        <p class="m-0">Copyright @ 2025. All Rights Reserved By Melville Driving School | Design and Develop by <a href="https://monoget.com.bd">Monoget Saha</a>.</p>
                     </div>
                 </div>
             </div>
