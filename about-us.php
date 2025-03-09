@@ -58,41 +58,36 @@
                                 <h2>We ensure quality services for our clients</h2>
                             </div>
                             <div class="whyChooseUs1__content">
-                                <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra
-                                    faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex ut,
-                                    eleifend tristique metus. Integer sit amet auctor ligula, vel dictum orci. Nam
-                                    feugiat interdum nisl.</p>
+                                <p>At Melville Driving School, we prioritize your safety and success. With a team of experienced instructors and flexible schedules, we ensure that every student receives personalized attention and comprehensive training. Our driving lessons are designed to build confidence on the road and prepare you for the challenges of real-world driving.</p>
                                 <div class="whyChooseUs1__item mt-35">
                                     <div class="whyChooseUs1__thumb">
-                                        <img src="assets/img/png-icon/icon-18.png" alt="Image">
+                                        <img src="assets/img/png-icon/icon-18.png" alt="Creative Solution">
                                     </div>
-                                    <h5>Creative Solution</h5>
-                                    <p>Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit amet auctor
-                                        ligula, vel dictum orci.</p>
+                                    <h5>Creative Solutions</h5>
+                                    <p>We provide unique and tailored driving lessons that cater to every learner's needs, ensuring a smooth and stress-free learning experience.</p>
                                 </div>
                                 <div class="whyChooseUs1__item mt-30 mb-60">
                                     <div class="whyChooseUs1__thumb bg1">
-                                        <img src="assets/img/png-icon/icon-19.png" alt="Image">
+                                        <img src="assets/img/png-icon/icon-19.png" alt="Satisfied Service">
                                     </div>
                                     <h5>Satisfied Service</h5>
-                                    <p>Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit amet auctor
-                                        ligula, vel dictum orci.</p>
+                                    <p>We take pride in offering top-notch customer service, focusing on your satisfaction at every step of your driving journey.</p>
                                 </div>
                                 <div class="main_btn">
-                                    <a href="about-us.html">Discover More</a>
+                                    <a href="about">Discover More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col_padding">
                             <div class="whyChooseUs1__imgBox3">
                                 <div class="whyChooseUs1__imgBox3--thumb1">
-                                    <img src="assets/img/about/about-09.jpg" alt="Image">
+                                    <img src="assets/img/about/about-09.jpg" alt="Image 1">
                                 </div>
                                 <div class="whyChooseUs1__imgBox3--thumb2">
-                                    <img src="assets/img/about/about-10.jpg" alt="Image">
+                                    <img src="assets/img/about/about-10.jpg" alt="Image 2">
                                 </div>
                                 <div class="whyChooseUs1__imgBox3--thumb3">
-                                    <img src="assets/img/png-img/png-img-41.png" alt="Image">
+                                    <img src="assets/img/png-img/png-img-41.png" alt="Image 3">
                                 </div>
                                 <div class="whyChooseUs1__imgBox3--thumb4">
                                     <span>10+ years of experience</span>
@@ -107,6 +102,7 @@
         <!-- |==========================================| -->
 
 
+
         <!-- |==========================================| -->
         <!-- |=====|| Counter Up Start ||===============| -->
         <section class="counter3">
@@ -116,12 +112,12 @@
                         <div class="col-lg-6 col_padding">
                             <div class="counter3__video">
                                 <div class="counter3__title">
-                                    <h5>Learn About Agency</h5>
+                                    <h5>Learn About Melville Driving School</h5>
                                     <h2>A quick, secure & transparent process</h2>
                                 </div>
                                 <div class="counter3__btn">
                                     <a data-fancybox="gallery_1" data-caption="Your caption will be here."
-                                        href="https://youtu.be/8rPB4A3zDnQ">
+                                       href="https://youtu.be/8rPB4A3zDnQ">
                                         <i class="fas fa-play"></i>
                                     </a>
                                 </div>
@@ -129,21 +125,21 @@
                         </div>
                         <div class="col-lg-6 col_padding">
                             <div class="counter3__content">
-                                <h3>We use our expertise and knowledge to take your business further.</h3>
+                                <h3>We use our expertise and knowledge to take your driving skills further.</h3>
                                 <div class="counter3__content--wrapper d-sm-flex justify-content-sm-between">
                                     <div class="counter3__content--item">
                                         <h4>
-                                            <span class="counter">62</span>
+                                            <span class="counter">5</span>
                                             <span>+</span>
                                         </h4>
-                                        <p>Employees</p>
+                                        <p>Instructors</p>
                                     </div>
                                     <div class="counter3__content--item">
                                         <h4>
-                                            <span class="counter">792</span>
+                                            <span class="counter">1200</span>
                                             <span>+</span>
                                         </h4>
-                                        <p>Project Done</p>
+                                        <p>Students Trained</p>
                                     </div>
                                 </div>
                             </div>
@@ -168,9 +164,9 @@
                                     <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
                                     <img class="imgbox_thumb1" src="assets/img/png-icon/icon-07.png" alt="PNG Icon">
                                 </div>
-                                <h3><a href="service-details-2.html">Market Research</a></h3>
-                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
-                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                                <h3><a href="basic-package">Driving Assessment</a></h3>
+                                <p>We start with an assessment to understand your current driving level and areas for improvement.</p>
+                                <a href="basic-package"><i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6 col_padding">
@@ -179,9 +175,9 @@
                                     <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
                                     <img class="imgbox_thumb1" src="assets/img/png-icon/icon-08.png" alt="PNG Icon">
                                 </div>
-                                <h3><a href="service-details-2.html">Wireframe/Sketch</a></h3>
-                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
-                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                                <h3><a href="basic-package">Personalized Training</a></h3>
+                                <p>Our certified instructors provide tailored lessons based on your unique needs and goals.</p>
+                                <a href="basic-package"><i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6 col_padding">
@@ -190,9 +186,9 @@
                                     <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
                                     <img class="imgbox_thumb1" src="assets/img/png-icon/icon-09.png" alt="PNG Icon">
                                 </div>
-                                <h3><a href="service-details-2.html">Creative Design</a></h3>
-                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
-                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                                <h3><a href="basic-package">On-Road Training</a></h3>
+                                <p>We provide on-road training with practical sessions to prepare you for real-world driving situations.</p>
+                                <a href="basic-package"><i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6 col_padding">
@@ -201,9 +197,9 @@
                                     <img class="imgbox_bg1" src="assets/img/png-img/png-img-01.png" alt="PNG IMG">
                                     <img class="imgbox_thumb1" src="assets/img/png-icon/icon-10.png" alt="PNG Icon">
                                 </div>
-                                <h3><a href="service-details-2.html">Develop Design</a></h3>
-                                <p>Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit amet consectetur </p>
-                                <a href="service-details-2.html"><i class="fas fa-chevron-right"></i></a>
+                                <h3><a href="basic-package">Test Preparation</a></h3>
+                                <p>We help you prepare for your driving test with mock tests, tips, and guidance to ensure success.</p>
+                                <a href="basic-package"><i class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -223,10 +219,10 @@
                         <div class="col-lg-6 col_padding order-2 order-lg-0">
                             <div class="about2__imgBox">
                                 <div class="about2__imgBox--01">
-                                    <img src="assets/img/about/about-11.jpg" alt="About">
+                                    <img src="assets/img/about/about-11.jpg" alt="About Driving School">
                                 </div>
                                 <div class="about2__imgBox--02">
-                                    <img src="assets/img/about/about-12.jpg" alt="About">
+                                    <img src="assets/img/about/about-12.jpg" alt="Driving Lessons">
                                 </div>
                                 <div class="about2__imgBox--text">
                                     <p class="m-0">10 Years of <br class="d-none d-md-inline-block"> experience</p>
@@ -236,29 +232,25 @@
                         <div class="col-lg-6 col_padding">
                             <div class="about2__wrapper">
                                 <div class="headingStyle1">
-                                    <h5>Company Introductions</h5>
-                                    <h2>A quick, secure & <br class="d-none d-md-inline-block"> transparent process.
-                                    </h2>
+                                    <h5>About SK Driving School</h5>
+                                    <h2>Experience, Expertise & <br class="d-none d-md-inline-block"> Professional Training.</h2>
                                 </div>
                                 <div class="about2__content">
-                                    <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra
-                                        faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex
-                                        ut, eleifend tristique metus.</p>
-                                    <h6>Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim
-                                        dolor, eleifend tristique metus.</h6>
+                                    <p>At SK Driving School, we take pride in offering a smooth, safe, and transparent learning experience for all our students. With over 10 years of experience in the driving education industry, we are committed to providing high-quality training that ensures success on the road.</p>
+                                    <h6>We focus on personalizing your learning journey, whether you're a first-time driver or looking to improve your skills.</h6>
                                     <div class="row">
                                         <div class="col-sm-6 col_padding">
                                             <ul>
                                                 <li>
                                                     <a href="#" class="about2__item">
                                                         <i class="icofont-checked"></i>
-                                                        <span>Best consultancy in town</span>
+                                                        <span>Certified and experienced instructors</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#" class="about2__item">
                                                         <i class="icofont-checked"></i>
-                                                        <span>We can help your business</span>
+                                                        <span>Flexible scheduling for your convenience</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -268,13 +260,13 @@
                                                 <li>
                                                     <a href="#" class="about2__item">
                                                         <i class="icofont-checked"></i>
-                                                        <span>We offer any type of loans</span>
+                                                        <span>Road safety-focused training</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#" class="about2__item">
                                                         <i class="icofont-checked"></i>
-                                                        <span>Our process very quickly</span>
+                                                        <span>Supportive environment for nervous drivers</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -284,16 +276,16 @@
                                 <div class="about2__bottom">
                                     <div class="about2__bottom--btn f_left">
                                         <div class="main_btn">
-                                            <a href="about-us.html">About Us</a>
+                                            <a href="about">About Us</a>
                                         </div>
                                     </div>
                                     <div class="about2__bottom--phone f_left">
                                         <div class="about2__bottom--phone-thumb">
-                                            <img src="assets/img/png-icon/icon-20.png" alt="Icon">
+                                            <img src="assets/img/png-icon/icon-20.png" alt="Phone Icon">
                                         </div>
                                         <div class="about2__bottom--phone-info">
                                             <h6>Call Anytime</h6>
-                                            <p class="m-0">88 478 365 8451</p>
+                                            <p class="m-0">(646) 841-9365</p>
                                         </div>
                                     </div>
                                 </div>
@@ -316,7 +308,7 @@
                         <div class="col-md-8 offset-md-2 col_padding">
                             <div class="headingStyle2 text-center mb-85">
                                 <h5>Our Testimonial</h5>
-                                <h2>What Clients Says?</h2>
+                                <h2>What Clients Say?</h2>
                             </div>
                         </div>
                     </div>
@@ -328,11 +320,9 @@
                                         <img src="assets/img/testimonial/testimonial-01.jpg" alt="Image">
                                     </div>
                                     <div class="testimonial2__content">
-                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut."</p>
+                                        <p>"I had an amazing experience at Melville Driving School. The instructors were patient, and the lessons were clear and well-structured. I passed my driving test on the first try! I would highly recommend this school to anyone looking to learn how to drive."</p>
                                         <div class="testimonial2__content--data d-flex justify-content-between">
-                                            <h6 class="m-0">Pamela Banks <span class="m-0">- Web Developer</span></h6>
+                                            <h6 class="m-0">Laura Bennett <span class="m-0">- Student</span></h6>
                                             <ul>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>
@@ -348,11 +338,9 @@
                                         <img src="assets/img/testimonial/testimonial-07.jpg" alt="Image">
                                     </div>
                                     <div class="testimonial2__content">
-                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut."</p>
+                                        <p>"The instructors were incredibly knowledgeable and made me feel at ease during each lesson. I now feel confident and prepared to drive on my own. Thank you, Melville Driving School!"</p>
                                         <div class="testimonial2__content--data d-flex justify-content-between">
-                                            <h6 class="m-0">Ryan Reyes <span class="m-0">- UI Designer</span></h6>
+                                            <h6 class="m-0">Mark Thompson <span class="m-0">- Student</span></h6>
                                             <ul>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>
@@ -368,11 +356,9 @@
                                         <img src="assets/img/testimonial/testimonial-05.jpg" alt="Image">
                                     </div>
                                     <div class="testimonial2__content">
-                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut."</p>
+                                        <p>"The best driving school in the area! The lessons were easy to follow, and I was able to practice and apply everything I learned during my driving test. Highly recommend it to anyone!"</p>
                                         <div class="testimonial2__content--data d-flex justify-content-between">
-                                            <h6 class="m-0">Pamela Banks <span class="m-0">- Web Developer</span></h6>
+                                            <h6 class="m-0">Sophie Williams <span class="m-0">- Parent</span></h6>
                                             <ul>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>
@@ -388,11 +374,9 @@
                                         <img src="assets/img/testimonial/testimonial-06.jpg" alt="Image">
                                     </div>
                                     <div class="testimonial2__content">
-                                        <p>"Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec
-                                            pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor,
-                                            porta at ex ut."</p>
+                                        <p>"Melville Driving School made me feel comfortable and confident from day one. The instructors are professional and truly care about making sure you succeed. I passed my test easily, and I owe it all to their fantastic teaching!"</p>
                                         <div class="testimonial2__content--data d-flex justify-content-between">
-                                            <h6 class="m-0">Ryan Reyes <span class="m-0">- UI Designer</span></h6>
+                                            <h6 class="m-0">David Clark <span class="m-0">- Student</span></h6>
                                             <ul>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                 <li><a href="#"><i class="fas fa-star"></i></a></li>

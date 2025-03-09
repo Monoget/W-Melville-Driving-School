@@ -94,7 +94,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="5-hour-class" class="d-inline-block">
+                                <a href="basic-package" class="d-inline-block">
                                     <i class="fas fa-arrow-right d-inline-block"></i>
                                     <span class="d-inline-block">5 Hour Class</span>
                                 </a>
